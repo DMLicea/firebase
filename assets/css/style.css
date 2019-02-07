@@ -1,0 +1,37 @@
+body 
+
+{
+    background-color: #FF9882 !important;
+
+    
+
+}
+
+h1 
+
+{
+
+    text-align: center;
+
+}
+
+#submission
+
+{
+
+    text-align: center;
+    color: #581845;
+
+}
+
+#train, #addtrain
+
+{
+    width: 75%;
+    margin: auto;
+    border-color: black;
+    border-style: solid;
+
+    
+
+}
