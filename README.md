@@ -17,6 +17,13 @@
 
 * For "Next Arrival" and "Minutes Away," calculations must be done using the moment() function allowed by the moment.js library.
 
-* "Next Arrival" is based on first arrival time and frequency of arrivals.
-
 * "Minutes Away" is based on current time and Next Arrival.
+* * Convert first arrival time into minutes, create variable
+* * Calculate difference in time, create variable
+* * Calculate remaining time by dividing difference by frequency of arrivals, create variable
+* * Subtract remaining time from frequency of arrivials
+* * That variable will be the amount of minutes away
+
+* "Next Arrival" is based on first arrival time and frequency of arrivals.
+* * Add "Minutes away" to the current time, create variable
+* * Convert that variable to the hh:mm format.
